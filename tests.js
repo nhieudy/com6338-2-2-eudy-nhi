@@ -188,3 +188,12 @@ function runTests() {
 
   mocha.run();
 }
+
+//Greet Function
+function greet(){
+  //console.log('Test'); Just making sure the function is working with the button
+  //Ask for name:
+  let userName = prompt("What is your name?");
+  console.log(userName);
+  alert("Hello, " + userName);
+}
