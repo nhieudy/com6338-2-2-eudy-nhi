@@ -192,8 +192,13 @@ function runTests() {
 //Greet Function
 function greet(){
   //console.log('Test'); Just making sure the function is working with the button
-  //Ask for name:
+  //Ask for user's name:
   let userName = prompt("What is your name?");
-  console.log(userName);
+  //console.log(userName);
+  //Greet user with their name:
   alert("Hello, " + userName);
+  let userAge = parseInt(prompt("How old are you?")); //Radix by default is 10
+  console.log(userAge);
+  confirm("Did you have a birthday yet this year?");
+
 }
